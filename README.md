@@ -2,11 +2,6 @@
   <img src="https://github.com/Hassan-Tahir/mira-keylogger/blob/master/mira.png">
 </p>
 
-<h1 align="center">Mira LINUX Keylogger</h1>
-<p align="center">
-  Exploitation Tool
-</p>
-
 ### MAINTAINER
 * **Hassan Tahir** 
 ### PREREQUISITES
@@ -19,9 +14,9 @@
 ### TESTED ON
 * **Kali Linux - Rolling Edition**
 
-* **Linux Mint **
+* **Linux Mint**
 
-* **Ubuntu **
+* **Ubuntu**
 
 
 ### CLONE
