@@ -1,17 +1,15 @@
 <p align="center">
-  <img src="https://github.com/Hassan-Tahir/mira-keylogger/blob/master/mira.png">
+  <img src="https://github.com/thehassantahir/mira/blob/master/mira-logo.png">
 </p>
 
-### MAINTAINER
+### Maintainer
 * **Hassan Tahir** 
-### PREREQUISITES
+### Prereq
 
 * Python 3.x 
-* pip
 * python-xlib
-* sudo
 
-### TESTED ON
+### Tested Env
 * **Kali Linux - Rolling Edition**
 
 * **Linux Mint**
@@ -19,21 +17,17 @@
 * **Ubuntu**
 
 
-### CLONE
-```
-git clone https://github.com/Hassan-Tahir/MiraKeylogger
-```
-
-### RUNNING
-
-```
-cd MiraKeylogger
-```
+### Usage
 
 ```
 sudo apt-get install python-xlib
 ```
-
+```
+git clone https://github.com/thehassantahir/Mira.git
+```
+```
+cd Mira
+```
 ```
 python mira.py
 ```
